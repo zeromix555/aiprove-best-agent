@@ -1,0 +1,37 @@
+{"ts": 1794596174, "step": "genkey", "status": "ok", "detail": "fresh keypair, address 0x16950832f1901e8B61cB05fF28401f1f36439af8 (key never logged)"}
+{"ts": 1794596175, "step": "read_skill", "status": "ok", "detail": "6722 chars, markers present"}
+{"ts": 1794596178, "step": "authenticate", "status": "ok", "detail": "address 0x16950832f1901e8B61cB05fF28401f1f36439af8, token expires 1794682579497"}
+{"ts": 1794596179, "step": "whoami", "status": "ok", "detail": "handle EchoCipher2, submissions 0"}
+{"ts": 1794596181, "step": "list_bounties", "status": "ok", "detail": "22 open"}
+{"ts": 1794596181, "step": "forecast", "status": "calc", "detail": "btc-tomorrow: BTC-USD last close 68906.6015625, 7d closes [75747.58, 74584.65, 75223.15, 73720.12, 73964.47, 71342.97, 68906.6], expected 1d return +0.25%"}
+{"ts": 1794596182, "step": "enter", "status": "ok", "detail": "bounty btc-tomorrow, entry 38926d8e-824c-443e-a280-733dac432c5e"}
+{"ts": 1794596183, "step": "submit", "status": "ok", "detail": "btc-tomorrow -> provenance_ok id=f0c444eb-d500-4679-be6a-ac3d4fc017e7"}
+{"ts": 1794596184, "step": "forecast", "status": "calc", "detail": "forecast-eth-24h: ETH-USD last close 1941.3699951171875, 7d closes [2236.32, 2120.98, 2131.5, 2050.18, 2055.88, 2016.83, 1941.37], expected 1d return +0.25%"}
+{"ts": 1794596186, "step": "enter", "status": "ok", "detail": "bounty forecast-eth-24h, entry 1689d585-c8f4-401f-accc-2736941141a5"}
+{"ts": 1794596187, "step": "submit", "status": "ok", "detail": "forecast-eth-24h -> provenance_ok id=bc2af050-1b6f-42e9-a22a-d7f377d138a6"}
+{"ts": 1794596187, "step": "forecast", "status": "calc", "detail": "forecast-btc-7d: BTC-USD last close 68906.6015625, 7d closes [75747.58, 74584.65, 75223.15, 73720.12, 73964.47, 71342.97, 68906.6], expected 7d return +1.73%"}
+{"ts": 1794596189, "step": "enter", "status": "ok", "detail": "bounty forecast-btc-7d, entry 0d72af97-b4fb-48aa-83c9-c99f7a718816"}
+{"ts": 1794596190, "step": "submit", "status": "ok", "detail": "forecast-btc-7d -> provenance_ok id=b00edf6d-813b-4758-9ac3-59db8dcd511c"}
+{"ts": 1794596191, "step": "forecast", "status": "calc", "detail": "spy-close-1dollar: SPY last close 753.2899780273438, 7d closes [733.0, 735.29, 752.69, 749.92, 759.81, 757.12, 753.29], expected 1d return +0.25%"}
+{"ts": 1794596192, "step": "enter", "status": "ok", "detail": "bounty spy-close-1dollar, entry 138500f4-f556-4efc-9227-cc200c949569"}
+{"ts": 1794596192, "step": "submit", "status": "ok", "detail": "spy-close-1dollar -> provenance_ok id=5bce5dba-6b0d-49f8-b44b-4fbdcf991374"}
+{"ts": 1794596193, "step": "forecast", "status": "calc", "detail": "forecast-gold-tomorrow: GLD last close 355.6199951171875, 7d closes [375.49, 372.52, 379.53, 369.36, 365.17, 354.89, 355.62], expected 1d return -0.45%"}
+{"ts": 1794596194, "step": "enter", "status": "ok", "detail": "bounty forecast-gold-tomorrow, entry ba438bd0-9dc7-4183-96a9-11d2267dcf1f"}
+{"ts": 1794596195, "step": "submit", "status": "ok", "detail": "forecast-gold-tomorrow -> provenance_ok id=98be0f7d-32ce-413a-a9c6-393d9e25fa88"}
+{"ts": 1794596196, "step": "forecast", "status": "calc", "detail": "forecast-nvda-3d: NVDA last close 162.69500732421875, 7d closes [181.6, 186.64, 178.67, 168.89, 173.73, 166.19, 162.7], expected 3d return -4.00%"}
+{"ts": 1794596197, "step": "enter", "status": "ok", "detail": "bounty forecast-nvda-3d, entry ea300edc-6ef4-4c54-b97d-ffcadef9695c"}
+{"ts": 1794596198, "step": "submit", "status": "ok", "detail": "forecast-nvda-3d -> provenance_ok id=cf012139-95ff-48bc-b1b3-3cc8e177132f"}
+{"ts": 1794596198, "step": "forecast", "status": "calc", "detail": "signal-eth-pnl-24h: ETH-USD last close 1941.4000244140625, 7d closes [2236.32, 2120.98, 2131.5, 2050.18, 2055.88, 2016.83, 1941.4], expected 1d return +0.25%"}
+{"ts": 1794596200, "step": "enter", "status": "ok", "detail": "bounty signal-eth-pnl-24h, entry 30758908-1d30-4aed-a9fc-5abd2fa7420a"}
+{"ts": 1794596201, "step": "submit", "status": "ok", "detail": "signal-eth-pnl-24h -> provenance_ok id=32614a8d-d7f9-4617-8cdc-8ec6fd5ffd9a"}
+{"ts": 1794596201, "step": "bughunt", "status": "found", "detail": "5 bugs via github-raw; controls all-pass=True (failed controls: none)"}
+{"ts": 1794596202, "step": "enter", "status": "ok", "detail": "bounty bug-hunt-utils, entry ee330e7e-768c-41ba-9f4f-76a6f834b78c"}
+{"ts": 1794596203, "step": "submit", "status": "ok", "detail": "bug-hunt-utils -> provenance_ok id=b9641114-1d88-4e3c-a9a6-5dbe4a11171e"}
+{"ts": 1794596203, "step": "code", "status": "tested", "detail": "code-golf-expr: evalExpr 51 bytes, 40 cases all pass (51 bytes)"}
+{"ts": 1794596215, "step": "enter", "status": "ok", "detail": "bounty code-golf-expr, entry ac8d493d-43fa-4a0d-a05a-fac5428428bd"}
+{"ts": 1794596216, "step": "submit", "status": "ok", "detail": "code-golf-expr -> provenance_ok id=c8bdeff4-d617-4695-8e35-a0376e04c987"}
+{"ts": 1794596217, "step": "code", "status": "tested", "detail": "fastest-primes: C sieve, pi(5M)=348513 correct, ~8 ms for N=5M"}
+{"ts": 1794596228, "step": "enter", "status": "ok", "detail": "bounty fastest-primes, entry 461bfbf2-e55b-4e0a-ac25-f1e107c56675"}
+{"ts": 1794596229, "step": "submit", "status": "ok", "detail": "fastest-primes -> provenance_ok id=367a3535-f293-47cd-a30c-cca08498d9bf"}
+{"ts": 1794596230, "step": "verify", "status": "ok", "detail": "/api/me/submissions: 10 total"}
+{"ts": 1794596230, "step": "loop", "status": "CLEAN", "detail": "agent EchoCipher2 (0x16950832f1901e8B61cB05fF28401f1f36439af8) completed 10 bounties: btc-tomorrow, forecast-eth-24h, forecast-btc-7d, spy-close-1dollar, forecast-gold-tomorrow, forecast-nvda-3d, signal-eth-pnl-24h, bug-hunt-utils, code-golf-expr, fastest-primes; /api/me/submissions confirms 10 of them"}

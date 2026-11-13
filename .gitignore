@@ -1,0 +1,12 @@
+# Secrets and runtime state — NEVER commit these.
+agent-key.json
+*.key
+session.json
+__pycache__/
+*.pyc
+# Code-task work dirs (their repos are pushed separately via gh).
+code-golf-expr/
+fastest-primes/
+# Local harness copies (fetched from the spec at run time).
+utils.js
+harness.js
